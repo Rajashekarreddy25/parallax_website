@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #7f78a0cd;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+li{
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.parallax{
+    position: relative;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.overlay{
+    position: absolute;
+    width: 100vh;
+    height: 100v h;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.498);
+}
+.parallax-1{
+    background-image: url(https://as1.ftcdn.net/v2/jpg/11/47/62/68/1000_F_1147626808_YpGhXiqtPuUr8I3sugKd1qZVxyGwEtex.jpg);
+
+}
+.parallax-2{
+    background-image: url(https://t4.ftcdn.net/jpg/09/00/36/43/240_F_900364375_Entvud9L9M15Pu0ieS3kHY3fUOBCUdOA.jpg);
+}
+.parallax-3{
+    background-image: url(https://media.istockphoto.com/id/1164329797/photo/hindu-sadhu-sitting-on-a-boat-overlooking-varanasi-city-architecture-at-sunset.jpg?s=612x612&w=0&k=20&c=LbpIHRo7kGT7dbUr6b6UuD1d6P0yCaKZ2lbqo3TY988=);
+
+}
+.parallax-4{
+    background-image: url(https://plus.unsplash.com/premium_photo-1661963839850-b4be117aff11?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXlvZGh5YXxlbnwwfHwwfHx8MA%3D%3D);
+}
+h1{
+    color: white;
+    text-align: justify;
+}
+h2{
+    color: blueviolet;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.content{
+    
+    padding: 40px;
+
+}
